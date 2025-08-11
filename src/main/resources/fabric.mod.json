@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "pubdlc-release-fabric",
+  "version": "0.1-recode",
+  "name": "pubdlc-release-fabric",
+  "description": "",
+  "authors": ["serverattacked"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/pub/logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "xyz.pub.Pub"
+    ]
+  },
+  "mixins": [
+    "xyz.pub.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "1.21.4"
+  }
+}
